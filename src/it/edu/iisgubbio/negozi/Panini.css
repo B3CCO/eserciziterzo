@@ -1,0 +1,8 @@
+.text-field{
+	-fx-background-color: #00ffff;
+	-fx-text-fill: blue;
+}
+.principale{
+	-fx-padding: 10 10 10 10;
+	-fx-vgap: 10;
+}

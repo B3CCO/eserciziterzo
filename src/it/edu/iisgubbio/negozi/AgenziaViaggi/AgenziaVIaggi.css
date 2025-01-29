@@ -1,0 +1,24 @@
+.text-field{
+	-fx-background-color: #00ffff;
+	-fx-text-fill: blue;
+}
+.label{
+	-fx-text-fill: #0000ff;
+	-fx-font-size: 12;
+}
+.principale{
+	-fx-padding: 10 10 10 10;
+	-fx-vgap: 10;
+}
+.lAN{
+	-fx-text-fill: #008000;
+	-fx-background-color: #ffff80;
+	-fx-max-width: 10000;
+	-fx-font-size: 15;
+}
+.lCostoP{
+	-fx-text-fill: #008000;
+	-fx-background-color: #ffff80;
+	-fx-max-width: 10000;
+	-fx-font-size: 15;
+}

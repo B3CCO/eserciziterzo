@@ -1,0 +1,17 @@
+.text-field{
+	-fx-background-color: yellow;
+}
+.label{
+	-fx-text-fill: blue;
+}
+.risultato{
+	-fx-text-fill: red;
+}
+.principale{
+	-fx-background-color: pink;
+}
+.button{
+	-fx-background-color: black;
+	-fx-text-fill: white;
+}
+

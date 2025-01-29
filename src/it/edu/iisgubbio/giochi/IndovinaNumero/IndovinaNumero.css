@@ -1,0 +1,20 @@
+.text-field{
+	-fx-background-color: #ff0080;
+	-fx-text-fill: black;
+	
+}
+.button{
+	-fx-background-color: black;
+	-fx-text-fill: #ff0080;
+	-fx-max-width: 1000;
+	-fx-font-size: 15;
+}
+.principale{
+	-fx-background-color: #ff8000;
+	-fx-vgap: 10;
+	-fx-padding: 10 10 10 10;
+}
+.label{
+	-fx-text-fill: black;
+	-fx-font-size: 18;
+}

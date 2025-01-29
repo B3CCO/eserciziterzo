@@ -1,0 +1,7 @@
+.punteggio{
+	-fx-font-size: 40;
+	-fx-fill: #ffffff;
+}
+.areaDiGioco{
+	-fx-background-image:url(Space.jpg);
+}

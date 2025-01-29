@@ -1,0 +1,19 @@
+.principale{
+	-fx-padding: 10 10 10 10;
+	-fx-vgap: 10;
+	-fx-background-color: black;
+}
+.text-field{
+	-fx-background-color: #800080;
+	-fx-text-fill: white
+}
+.button{
+	-fx-background-color: #ff00ff;
+}
+.label{
+	-fx-text-fill: #ff80ff;
+	-fx-font-size: 12;
+}
+.lCalcola{
+	-fx-font-size: 18;
+}
