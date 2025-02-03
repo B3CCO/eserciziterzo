@@ -39,48 +39,48 @@ public class Cesare extends Application{
 	}
 	
 	private void eseguiCifra() {
-		char parola1[]=tfParola1.getText().toCharArray();
+		char lettere[]=tfParola1.getText().toCharArray();
 		
-		for(int i=0;i<parola1.length;i++) {
+		for(int i=0;i<lettere.length;i++) {
 			
-			switch(parola1[i]) {
+			switch(lettere[i]) {
 			case 'z':
-				parola1[i]='c';
+				lettere[i]='c';
 				break;
 			case 'y':
-				parola1[i]='b';
+				lettere[i]='b';
 				break;
 			case 'x':
-				parola1[i]='a';
+				lettere[i]='a';
 				break;
-				default:
-					parola1[i]=(char)(parola1[i]+3);
+			default:
+					lettere[i]=(char)(lettere[i]+3);
 			}
 		}
 		
-		String parole=new String(parola1);
+		String parole=new String(lettere);
 		tfParola2.setText(parole);
 	}
 	private void eseguiDecifra() {
-		char parola2[]=tfParola2.getText().toCharArray();
+		char frase[]=tfParola2.getText().toCharArray();
 
-		for(int i=0;i<parola2.length;i++) {
-			switch(parola2[i]) {
+		for(int i=0;i<frase.length;i++) {
+			switch(frase[i]) {
 			case 'c':
-				parola2[i]='z';
+				frase[i]='z';
 				break;
 			case 'b':
-				parola2[i]='y';
+				frase[i]='y';
 				break;
 			case 'a':
-				parola2[i]='x';
+				frase[i]='x';
 				break;
-				default:
-					parola2[i]=(char)(parola2[i]-3);
+			default:
+					frase[i]=(char)(frase[i]-3);
 			}
 			
 		}
-		String parole=new String(parola2);
+		String parole=new String(frase);
 		tfParola1.setText(parole);
 		
 	}
