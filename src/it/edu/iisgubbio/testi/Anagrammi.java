@@ -44,27 +44,28 @@ public class Anagrammi extends Application{
 		
 		char parola1[]=tfParola1.getText().toCharArray();
 		char parola2[]=tfParola2.getText().toCharArray();
-		int contatore=0;
+		int contatoreUguali=0;
+		boolean trovato=false;
 		
 		if(parola1.length==parola2.length) {
 			for(int i=0; i<parola1.length;i++) {
-				boolean presente=false;
-				for(int indice=0; indice<parola2.length;indice++) {
+				for(int indice=0; indice<parola2.length && trovato==true;indice++) {
 					if(parola1[i]==parola2[indice]) {
-						presente=true;
+						trovato=true;
+						parola2[indice]=' ';
+						contatoreUguali++;
 					}
-					if(presente==true) {
-						contatore++;
+					if(trovato) {
 					}
 				}
 			}
+		}
+		if(contatoreUguali==parola1.length) {
 			lRisposta.setText("è un anagramma");
 		}else {
 			lRisposta.setText("non è un anagramma");
 		}
 	}
-	
-	
 	public static void main(String[] args) {
 		launch(args);
 	}
