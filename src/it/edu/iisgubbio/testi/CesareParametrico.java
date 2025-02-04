@@ -39,7 +39,7 @@ public class CesareParametrico extends Application{
 	}
 	
 	private void eseguiCifra() {
-		int numero;	
+		int numero=Integer.parseInt(tfNumero.getText());	
 		char parola1[]=tfParola1.getText().toCharArray();
 		
 		for(int i=0;i<parola1.length;i++) {
