@@ -97,7 +97,7 @@ public class Becchetti extends Application{
 				q+=1;
 			}
 		}
-		lRisultato.setText();
+		lRisultato.setText("accidenti!");
 	}
 	private void eseguiVisualizza() {
 		String testo, parti[];
