@@ -28,6 +28,11 @@ public class Cane {
 	
 	//metodo verifica proprietario che dato un nome dice se è il proprietario oppure no
 	
+	/**
+	 * verifica il nome del proprietario
+	 * @param nome il nome del propiretario da controllare
+	 * @return true se il nome inserito è uguale a quello del proprietario
+	 */
 	public boolean verificaProprietario(String nome) {
 		
 		if(nomeProprietario.equals(nome)) {  
@@ -42,12 +47,13 @@ public class Cane {
 	
 	//implementare nella classe cane il metodo età che dato un anno restituisce l'età del cane
 	
-	public int età(int anno) {
-		int età=0;
-		età=anno-this.anno;
-		return età;
-		
-
+	/**
+	 * metodo che dato un anno, restituisce l'età del cane
+	 * @param anno l'anno a cui è riferita l'età
+	 * @return calcola l'età del cane nell'anno specificato
+	 */
+	public int età(int anno) {	
+		return anno-this.anno;
 	}
 	
 	
