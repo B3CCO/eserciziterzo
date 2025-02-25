@@ -14,6 +14,16 @@ public class Fattoria {
 		System.out.println(pomodoro);
 		System.out.println(m);
 		
+		Formaggio taleggio = new Formaggio("Taleggio",25,1,true);
+		Formaggio ricotta = new Formaggio("Ricotta",4,0);
+		
+		
+		System.out.println(taleggio);
+		System.out.println(ricotta);
+		
+		
+		
+		
 	}
 
 }
