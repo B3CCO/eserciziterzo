@@ -5,11 +5,10 @@ public class Muffato extends Formaggio{
 	protected String nomeMuffa;
 	protected boolean interno;
 	
-	public Muffato(String nome, double prezzoAlChilo, int tempoDiStagionatura, String nomeMuffa,
-			boolean interno) {
-		super(nome, prezzoAlChilo, tempoDiStagionatura);
+	public Muffato(String nome, double prezzoAlChilo, String nomeMuffa) {
+		super(nome, prezzoAlChilo, 0, false);
 		this.nomeMuffa = nomeMuffa;
-		this.interno = interno;
+		this.interno = true;
 	}
 	
 	

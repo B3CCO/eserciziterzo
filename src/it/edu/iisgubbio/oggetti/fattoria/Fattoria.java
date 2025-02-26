@@ -22,6 +22,9 @@ public class Fattoria {
 		System.out.println(ricotta);
 		
 		
+		Carne pollo=new Carne("pollo",10,false,true);
+		System.out.println(pollo);
+		System.out.println(pollo.isCarneBianca());
 		
 		
 	}
