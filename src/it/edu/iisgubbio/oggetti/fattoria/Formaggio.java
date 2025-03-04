@@ -18,6 +18,16 @@ public class Formaggio extends Prodotto{
 		this.tempoDiStagionatura = tempoDiStagionatura;
 		dop=false;
 	}
+
+	public void setTempoDiStagionatura(int tempoDiStagionatura) {
+		this.tempoDiStagionatura = tempoDiStagionatura;
+	}
+
+
+	public void setDop(boolean dop) {
+		this.dop = dop;
+	}
+
 	@Override
 	public String toString() {
 		if(dop==true) {
