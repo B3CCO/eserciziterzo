@@ -45,7 +45,7 @@ public class MezziRimessa{
 		System.out.println(terrestre.tempoDiPercorrenza(100));
 		
 		Motocicletta motocicletta= new Motocicletta("MotoGuzzi",1,345);
-		motocicletta.setNumeriPosti(3);
+		motocicletta.setNumeroPosti(3);
 		System.out.println(motocicletta);
 		System.out.println(motocicletta.puoTrasportare(4));
 		
